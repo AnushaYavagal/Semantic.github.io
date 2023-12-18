@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #25274d;
+      padding: 10px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    h1{
+        color: #022140;
+    }
+
+    .nv {
+      display: flex;
+      justify-content: space-around;
+      background: #c2cad0;
+      padding: 20px;
+    }
+
+    div p {
+      list-style-type: none;
+      padding: 0;
+      margin-inline: 11px;
+      margin-top: 20px;
+    }
+
+    div p a {
+      color: green;
+      font-size: 22px;
+      text-decoration: inherit;
+    }
+
+    .main-container {
+      display: flex;
+    }
+
+
+    section {
+      flex: 3;
+      /*background-image: url(https://c1.wallpaperflare.com/preview/572/790/545/architecture-travel-outdoors-sky.jpg);*/
+      padding: 10px;
+      height: 350px;
+      width: 60%;
+    }
+
+    aside {
+  flex: 2; /* Takes up 40% of the space */
+  padding: 20px;
+  font-style: italic;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/629/251/818/temple-virupaksha-temple-hampi-shiva-wallpaper-preview.jpg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+aside p {
+  margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+aside a {
+  color: #ff4081; /* Change link color */
+  text-decoration: underline; /* Underline links */
+}
+
+    footer {
+      background-color: #46344E;
+      padding: 20px;
+      text-align: center;
+      color: blanchedalmond;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>INDIA</h2>
+</header> 
+
+<div class="nv">
+  <p><a href="index.html">Home</a></p>
+  <p><a href="about.html">Experience</a></p>
+  <p><a href="menu.html">Destinations</a></p>
+  <p><a href="Contact us.html">What's New</a></p>
+  <p><a href="sign in.html">Blog</a></p>
+</div>
+
+<div class="main-container">
+  <section>
+    <h1>EXPLORE KARNATAKA</h1>
+    <p><i>Come and explore the hidden gems of Karnataka. The sixth largest state in India is famous for its wildlife, heritage, temples, monuments, beaches, adventure, food and much more.</i></p>
+    <p><i>A land known for its silks, spices and sandalwood, Karnataka adds up as an experience to remember for a lifetime. Tourism in Karnataka stands out with its diverse offerings that include wildlife & national parks, monuments & heritage sites, beaches and pilgrimage sites.</i></p>
+  </section>
+
+  <article>
+    <!-- Content of the article goes here -->
+  </article>
+  
+  <aside>
+   
+  </aside>
+</div>
+
+<footer>
+  <p>© 2023 India Tourism All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
